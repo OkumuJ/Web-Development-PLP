@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .menu {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links!</h1>
+        <p>Your go-to place for technology, nature, and food images.</p>
+        <a href="#gallery">Explore the Gallery</a>
+    </header>
+    <div class="container">
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <!-- Technology Image -->
+                <a href="https://example.com/technology" target="_blank">
+                    <img src="image/technology.jpg" alt="Technology" width="300" height="200">
+                </a>
+                <!-- Nature Image -->
+                <a href="https://example.com/nature" target="_blank">
+                    <img src="image/nature.jpg" alt="Nature" width="300" height="200">
+                </a>
+                <!-- Food Image -->
+                <a href="https://example.com/food" target="_blank">
+                    <img src="image/food.jpg" alt="Food" width="300" height="200">
+                </a>
+            </div>
+        </section>
+        <section class="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="https://example.com/food1" target="_blank">Pizza</a></li>
+                <li><a href="https://example.com/food2" target="_blank">Sushi</a></li>
+                <li><a href="https://example.com/food3" target="_blank">Chocolate Cake</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
